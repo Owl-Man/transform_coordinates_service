@@ -21,7 +21,7 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git 
+git clone https://github.com/Owl-Man/transform_coordinates_service.git
 cd transform_coordinates_service
 ```
 
@@ -39,7 +39,6 @@ uvicorn main:app --reload
 
 2. Запустите фронтенд (Streamlit):
 ```bash
-cd frontend
 streamlit run app.py
 ```
 
@@ -63,3 +62,24 @@ Excel файл должен содержать следующие колонки
 - X: координата X
 - Y: координата Y
 - Z: координата Z
+  
+Пример:
+
+![изображение](https://github.com/user-attachments/assets/37e81547-10e9-4806-a801-7b12230aa3ff)
+
+## Скриншоты сервиса
+
+1 - исходная страница (выбор из какой системы координат преобразовать)
+
+![изображение](https://github.com/user-attachments/assets/5cad561f-450f-4977-9b2e-48a9e89b2ff1)
+
+2 - после загрузки файла (появляется предпоказ загруженных данных и кнопка преобразовать координаты)
+
+![изображение](https://github.com/user-attachments/assets/ee738ee9-b627-41f1-a416-36f75575d8ba)
+
+3 - после преобразования (появляется кнопка скачать отчет в md формате и ниже предпоказ отчета в самом сервисе)
+
+![изображение](https://github.com/user-attachments/assets/a7549944-e3de-4400-a2d5-4a3cfdd469b5)
+
+
+
