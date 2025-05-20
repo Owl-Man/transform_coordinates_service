@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide"
 )
 
-BACKEND_URL = "http://localhost:8000"
+BACKEND_URL = "https://transform-coordinates-service.onrender.com"
 
 st.title("Преобразование координат")
 st.markdown("""
